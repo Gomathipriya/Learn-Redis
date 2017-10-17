@@ -1,0 +1,10 @@
+{
+    "Customer" : {
+        "redisConf": {
+            "host": "prod"
+          },
+          "apiConfig": {
+            "url":  "produrl"
+          }
+    }
+  }
