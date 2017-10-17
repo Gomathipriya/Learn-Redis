@@ -1,0 +1,20 @@
+{
+  "name": "node-redis",
+  "version": "1.0.0",
+  "description": "Nodejs with Redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gomathipriya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pub": "^0.2.0",
+    "redis": "^2.8.0",
+    "request": "^2.83.0"
+  }
+}
