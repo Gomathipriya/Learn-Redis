@@ -4,7 +4,7 @@ var redisController = require("../controller/redisController");
 var apiController = require("../controller/apiController");
 
 //API calls
-router.get('/comments',redisController.readFromCache,apiController.fetchDataFromAPI);
+router.get('/comments/:id',redisController.readFromCache,apiController.fetchDataFromAPI);
 
 /* index route */
 router.get('/', function(req, res, next) {
